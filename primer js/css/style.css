@@ -1,0 +1,192 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+  width: 100%;
+  max-width: 1246px;
+  background-color: blue;
+  height: 600px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+ 
+}
+
+button{
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#mayor{
+  color: green;
+}
+
+.botoes{
+  display: flex;
+  justify-content: center;
+}
+
+.edad{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.edad button{
+  margin: 0 10px;
+}
+
+.edad button:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+.edad button:active{
+  background-color: #fff;
+  color: #000;
+}
+
+.edad button:focus{
+  outline: none;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form input{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  text-align: center;
+ 
+}
+
+form button{
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+form button:hover{
+  background-color: blue;
+  color: #fff;
+}
+
+form button:active{
+  background-color: #fff;
+  color: red;
+}
+
+form button:focus{
+  outline: none;
+  color: green;
+}
+
+#resultado{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.mayor{
+  background-color: green;
+  color: #fff;
+
+}
+
+.confirmacion {
+
+ background-color: green;
+
+color: beige;
+ }
+
+ 
+p span{
+  display: none;
+}
+
+button#vermas{
+  background-color: #cfb312;
+  color: #c51717;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button#vermas:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+button#vermas:active{
+  background-color: #fff;
+  color: #000;
+}
+
+button#vermas:focus{
+  outline: none;
+}
+
+.vermas {
+  display: inline-block;
+}
+
+ul{
+  list-style: none;
+  display: none;
+}
+
+.menu{
+  display: block;
+  color: aqua;
+}
+
+.confirmado {
+
+ padding: 10px 50px;
+ color: chartreuse;
+ }
+
+
+
+
+div.confirmado p {
+
+  color: red;
+
+}
